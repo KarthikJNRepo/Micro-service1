@@ -1,0 +1,19 @@
+#this name should match git file name or else use  spring.cloud.config.name=limits-service
+spring.application.name=currency-exchange
+server.port=8000
+spring.config.import=optional:configserver:http://localhost:8888
+
+
+#Configur the profiles 
+#spring.profiles.active=qa
+#spring.cloud.config.profile=qa
+#this name should match git file name
+spring.cloud.config.name=limits-service
+
+#Mysql configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/udemy_microservice
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql: true

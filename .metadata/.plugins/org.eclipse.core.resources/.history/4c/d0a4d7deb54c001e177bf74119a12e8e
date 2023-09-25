@@ -1,0 +1,11 @@
+#this name should match git file name or else use  spring.cloud.config.name=limits-service
+spring.application.name=currency-conversion
+server.port=8100
+spring.config.import=optional:configserver:http://localhost:8888
+
+
+#Configur the profiles 
+#spring.profiles.active=qa
+#spring.cloud.config.profile=qa
+#this name should match git file name
+Fspring.cloud.config.name=limits-service

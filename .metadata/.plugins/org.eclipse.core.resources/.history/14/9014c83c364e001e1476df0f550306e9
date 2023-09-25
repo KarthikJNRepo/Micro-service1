@@ -1,0 +1,5 @@
+package com.microservice.currencyexchangeservice.controller;
+
+public class CircuitBreakerController {
+
+}

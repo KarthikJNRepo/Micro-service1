@@ -1,0 +1,6 @@
+url to code details
+
+https://github.com/in28minutes/spring-microservices-v3/blob/main/03.microservices/01-step-by-step-changes/readme.md#step-2
+
+
+https://www.in28minutes.com/resources-microservices-course
